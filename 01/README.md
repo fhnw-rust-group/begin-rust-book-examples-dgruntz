@@ -17,4 +17,4 @@ Mit dem Befehl
 
     cargo build --release
 
-kann ein Release gebaut werden. Ein Release-Build ist jedoch nicht viel kleiner: 151'040 bytes\
+kann ein Release gebaut werden. Ein Release-Build ist jedoch nicht viel kleiner: 151'040 Bytes.
