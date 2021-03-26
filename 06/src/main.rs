@@ -15,5 +15,14 @@ fn main() {
     ex2::fun(10);
 
     ex3::print_border(6, 5);
+
+    let mut x = 0;
+    let res: i32 = loop {
+        x = x + 1;
+        if x == 9 {
+            break x;
+        }
+    };
+    println!("{}", res);
 }
 

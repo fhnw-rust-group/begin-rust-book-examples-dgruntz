@@ -1,4 +1,4 @@
-# 02
+# 02: Anatomy of Rust
 
 Exercise:
 

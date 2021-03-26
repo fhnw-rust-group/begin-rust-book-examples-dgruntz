@@ -1,4 +1,4 @@
-# 01
+# 01 Hello World
 
 Übungen zu Kapitel 1 (Hello World)
 
