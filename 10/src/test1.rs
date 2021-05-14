@@ -15,6 +15,11 @@ pub fn main() {
 	let s3: &str = get_value();
     let s4: &str = util::get_value();
 
+    println!["{:p}", s1];
+    println!["{:p}", s2];
+    println!["{:p}", s3];
+    println!["{:p}", s4];
+
     println!("{}", s1==s2);
 	println!("{}", ptr::eq(s1, s2));
 
@@ -23,4 +28,8 @@ pub fn main() {
 
     println!("{}", s1==s4);
 	println!("{}", ptr::eq(s1, s4));
+
+    let s = "Hel".to_owned() + "lo";
+    let s5: &str = &s;
+    println!["{:p}", s5];
 }
